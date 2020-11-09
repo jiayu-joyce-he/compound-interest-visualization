@@ -1,5 +1,11 @@
 import React from "react"
+// import Form from "../components/Form.js"
+import InteractiveVisualizations from "../components/InteractiveVisualizations.js"
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return (
+    <>
+      <InteractiveVisualizations />
+    </>
+  )
 }
